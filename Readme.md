@@ -1,37 +1,30 @@
 # Marmeto Shopping Page
 This project is a simple e-commerce product page designed using HTML, CSS, and JavaScript. It fetches product data from an external API and displays it on the page, allowing users to select product colors, sizes, and quantity, and add the product to the cart.
 
-[Live Link](https://i-am-sirius-black.github.io/MarmetoL2/)
+[Live Page Link](https://i-am-sirius-black.github.io/MarmetoL2/)
 
 ## Features
-Responsive design for different screen sizes.
-```
-Dynamic fetching of product data from an API.
-```
-Thumbnail images to preview different angles of the product.
-```
-Options to select product color and size.
-```
-Quantity adjustment.
-```
-Add to cart functionality with feedback on the selected product.
-```
-Prerequisites
-```
-Web browser (Chrome, Firefox, Safari, etc.)
-```
-**How to Run the Project**
->Clone the Repository:
+- Responsive design for different screen sizes.
+- Dynamic fetching of product data from an API.
+- Thumbnail images to preview different angles of the product.
+- Options to select product color and size.
+- Quantity adjustment.
+- Add to cart functionality with feedback on the selected product.
 
-> git clone [https://github.com/i-am-Sirius-Black/MarmetoL2.git](https://github.com/i-am-Sirius-Black/MarmetoL2.git)
-```
-cd marmeto-shopping-page
+**Prerequisites**
+Web browser (Chrome, Firefox, Safari, etc.)
+
+**How to Run the Project**
+Clone the Repository:
+
+git clone [https://github.com/i-am-Sirius-Black/MarmetoL2.git](https://github.com/i-am-Sirius-Black/MarmetoL2.git)
+> **cd** marmeto-L2
 
 ## Open the Project:
-> Open the index.html file in your web browser to view and interact with the shopping page.
+ Open the index.html file in your web browser to view and interact with the shopping page.
 
 **Project Structure**
-        marmeto-shopping-page/
+        marmeto-marmeto-L2/
         |-- index.html
         |-- style.css
         |-- script.js
@@ -54,22 +47,23 @@ The JavaScript file (script.js) handles the dynamic fetching and displaying of p
 View Product Details:
 The product details are fetched from the API and displayed on the page, including the vendor name, title, price, discount, and description.
 
->Select Color:
+**Select Color:**
 >Choose a color from the available options. The selected color will be highlighted.
 
->Select Size:
+**Select Size:**
 >Choose a size from the available options. The selected size will be highlighted.
 
->Adjust Quantity:
+**Adjust Quantity:**
 >Use the + and - buttons to adjust the quantity of the product.
 
->Add to Cart:
+**Add to Cart:**
 >Click the "Add To Cart" button to add the selected product to the cart. A message will appear confirming the addition.
 
 ## API Data
 The product data is fetched from a JSON file hosted on Shopify:
-
+```
 > https://cdn.shopify.com/s/files/1/0564/3685/0790/files/singleProduct.json
+```
 
 ### Contributing
 Feel free to submit issues or pull requests if you find any bugs or have suggestions for improvements.
@@ -81,5 +75,5 @@ This project is licensed under the MIT License.
 **Fonts:** [Google Fonts](https://fonts.google.com/specimen/Inter)
 **Icons:** [Font Awesome](https://fontawesome.com/)
 **API:** [Product API](https://cdn.shopify.com/s/files/1/0564/3685/0790/files/singleProduct.json?v=1701948448)
-Contact
-For any questions or feedback, please contact [khanajaved.sk19@gmail.com].
+## Contact
+For any questions or feedback, please contact ```khanajaved.sk19@gmail.com```.
