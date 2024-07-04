@@ -1,34 +1,45 @@
 # Marmeto Shopping Page
 This project is a simple e-commerce product page designed using HTML, CSS, and JavaScript. It fetches product data from an external API and displays it on the page, allowing users to select product colors, sizes, and quantity, and add the product to the cart.
 
-[Live Link]()
+[Live Link](https://i-am-sirius-black.github.io/MarmetoL2/)
 
 ## Features
 Responsive design for different screen sizes.
+```
 Dynamic fetching of product data from an API.
+```
 Thumbnail images to preview different angles of the product.
+```
 Options to select product color and size.
+```
 Quantity adjustment.
+```
 Add to cart functionality with feedback on the selected product.
+```
 Prerequisites
+```
 Web browser (Chrome, Firefox, Safari, etc.)
-How to Run the Project
-Clone the Repository:
+```
+**How to Run the Project**
+>Clone the Repository:
 
 > git clone [https://github.com/i-am-Sirius-Black/MarmetoL2.git](https://github.com/i-am-Sirius-Black/MarmetoL2.git)
+```
 cd marmeto-shopping-page
 
 ## Open the Project:
 > Open the index.html file in your web browser to view and interact with the shopping page.
 
-### Project Structure
-
-marmeto-shopping-page/
-├── index.html          # Main HTML file
-├── style.css           # CSS file for styling
-├── script.js           # JavaScript file for functionality
-├── README.md           # This README file
-
+**Project Structure**
+        marmeto-shopping-page/
+        |-- index.html
+        |-- style.css
+        |-- script.js
+        |-- README.md
+- `index.html`: Main HTML file for your project.
+- `style.css`: CSS file for styling.
+- `script.js`: JavaScript file for scripting logic.
+- `README.md`: Documentation for your project.
 
 **HTML**
 The HTML file (index.html) contains the structure of the shopping page, including sections for the main image, thumbnail images, product details, color and size selectors, quantity adjuster, and add to cart button.
